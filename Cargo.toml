@@ -1,0 +1,21 @@
+[package]
+name = "wicket-guard"
+version = "0.0.1"
+edition = "2021"
+description = "Admissibility preflight for AI-agent-authored diffs. Built on wicket."
+license = "Apache-2.0"
+
+[lib]
+name = "wicket_guard"
+path = "src/lib.rs"
+
+[[bin]]
+name = "wicket-preflight"
+path = "src/main.rs"
+
+[dependencies]
+wicket = { path = "../wicket" }
+clap = { version = "4", features = ["derive"] }
+chrono = { version = "0.4", default-features = false, features = ["clock"] }
+sha2 = "0.10"
+serde_json = "1"
