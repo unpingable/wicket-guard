@@ -1,5 +1,10 @@
 # wicket-guard (absorbed → wicket)
 
+Public history remains at <https://github.com/unpingable/wicket-guard> until
+repository migration is actually performed. New users should use
+**Constellation Wicket** through its current public source at
+<https://github.com/unpingable/wicket>; see [HOWTO.md](HOWTO.md).
+
 **This crate has been absorbed into [wicket](../wicket). This repo is a husk.**
 
 `wicket-guard` was admissibility preflight for AI-agent-authored diffs: it
